@@ -44,8 +44,6 @@ class CatMonitor():
 				if len(age)>=24 and age[:2]=='00' and int(age[8:10])<5: # check age
 					selected_info.append(acat)
 					selected_cats.append(cat)
-		# for info in selected_info:
-		# 	print info
 		return selected_info, selected_cats
 
 	def find_new(self, selected_cats):
